@@ -4,6 +4,12 @@
 //|                                                                  |
 //+------------------------------------------------------------------+
 
+input int InpMagic = 1234;     // Magic
+input int InpTakeProfit = 150; // Take Profit
+input double InpVolume = 0.1;  // Volume
+
+input int InpTimeSetOrder = 5; // Time for Set Order (seconds)
+input int InpDistanceToOrder = 100; // Distance to orders
 
 //+------------------------------------------------------------------+
 int OnInit()
