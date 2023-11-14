@@ -41,6 +41,7 @@ void ClassNewsInfo::SetSuffix(string suf){this.Suffix = suf;}
 //+------------------------------------------------------------------+
 void ClassNewsInfo::LoadDataFromFile(string file_name, NewsInfo &_data[], string sep = ";")
 {
+   //TODO: Use Json File
    ArrayFree(_data);
    int handler;
    if(FileIsExist(file_name))
